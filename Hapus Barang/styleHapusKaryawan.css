@@ -1,0 +1,65 @@
+table tr:not(:first-child) {
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+}
+
+table tr:not(:first-child):hover {
+    background-color: #ddd;
+}
+
+
+.tabel-sc {
+    border: solid 1px rgb(9, 9, 9);
+    position: relative;
+    height: 200px;
+    overflow-y: scroll;
+    display: block;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+form {
+    margin-top: 20px;
+    border: black solid 1px;
+    width: 600px;
+}
+
+th,
+tr,
+td {
+    border: solid 1px rgb(9, 9, 9);
+}
+
+thead {
+    top: 0;
+    position: sticky;
+    background: #37cfc8;
+    color: black;
+}
+
+th {
+    padding: 8px;
+}
+
+#searching {
+    margin-left: 0px;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+
+#kode {
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+#nama {
+    margin-left: 37px;
+}
+
+#hapus {
+    margin-bottom: 20px;
+}
+
